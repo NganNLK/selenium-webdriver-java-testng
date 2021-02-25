@@ -13,7 +13,7 @@ public class topic1 {
     @BeforeClass
     public void beforeClass() {
         driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get("http://demo.guru99.com/v4");
     }

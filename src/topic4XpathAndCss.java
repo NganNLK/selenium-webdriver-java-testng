@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class topic4LoginWithEmptyEmailAndPass {
+public class topic4XpathAndCss {
     WebDriver driver;
 
     @BeforeClass
